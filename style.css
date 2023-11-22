@@ -77,7 +77,32 @@ button {
     height: 250px;
 }
 
+.infobox {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.headerinfo {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+}
+
+.boxes {
+    max-width: 200px;
+}
+
+.subtext {
+    max-width: 150px;
+}
+
 .imgbox {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
