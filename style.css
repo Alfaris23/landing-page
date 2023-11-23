@@ -111,19 +111,27 @@ button {
 
 .quotebox {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     background-color: #E5E7EB;
-    align-items: center;
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    width: 600px;
+    width: 650px;
     height: 300px;
+    margin-top: 20px;
 }
 
 .quoteby {
+    display: flex;
+    align-self: flex-end;
     font-weight: bold;
+    font-style: normal;
+    font-size: 18px;
 }
