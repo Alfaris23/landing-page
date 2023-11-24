@@ -135,3 +135,40 @@ button {
     font-style: normal;
     font-size: 18px;
 }
+
+.cta {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    margin: 100px;
+}
+
+.ctabox {
+    border-radius: 10px;
+    background: #3882F6;
+    padding: 20px;
+    width: 800px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ctacontent {
+    font-weight: bold;
+}
+
+.ctatext {
+    font-weight: normal;
+}
+
+.sign-upbottom {
+    border: 1px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+}
